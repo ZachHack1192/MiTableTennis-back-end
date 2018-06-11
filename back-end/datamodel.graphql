@@ -1,0 +1,9 @@
+type User {
+  id: ID! @unique
+  firstName: String!
+  lastName: String!
+  ranking: String!
+  wins: Int
+  losses: Int
+}
+
